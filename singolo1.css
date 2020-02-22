@@ -85,32 +85,23 @@ header {
         height: 89px;
     }
         #logo {
-            height: 100%;
             float: left;
             font-size: 25px;
-            display: flex;
-            margin-left: 40px;
+            margin: 33px 0 0 40px;
         }
-            #logo span {
-                margin: auto;
-            }
             #logo sup {
-                margin: auto;
                 color: #f06c64;
             }
         menu {
-            height: 100%;
             float: right;
-            display: flex;
             font-size: 12px;
-            margin-right: 40px;
+            margin: 44px 10px 0 0;
         }
             menu li {
                 float: left;
-                margin: auto;
             }
             menu li:nth-child(even) {
-                width: 30px;
+                width: 36px;
                 text-align: center;
                 color: #494e62;
             }
@@ -132,11 +123,11 @@ header {
         margin: 0 auto;
     }
         #slider .left-arrow {
-            height: 100%;
+            height: 590px;
             width: 16px;
             display: flex;
             float: left;
-            margin-left: 40px;
+            margin-left: 42px;
         }
             #slider .left-arrow div {
                 width: 100%;
@@ -147,10 +138,10 @@ header {
             }
         #slider .right-arrow {
             width: 16px;
-            height: 100%;
+            height: 590px;
             display: flex;
             float: right;
-            margin-right: 40px;
+            margin-right: 42px;
         }
             #slider .right-arrow div {
                 width: 100%;
@@ -160,8 +151,8 @@ header {
                 background: url('assets/arrows.png') no-repeat -19px 0;
             }
         .slides {
-            width: 908px;
-            height: 100%;
+            width: 904px;
+            height: 588px;
             float: left;
         }
             .slides .slide {
@@ -178,7 +169,7 @@ header {
                     background: url('assets/phone2.png') no-repeat left center;
                     float: right;
                     height: 100%;
-                    width: 539px;
+                    width: 537px;
                 }
 
 footer {
@@ -188,14 +179,14 @@ footer {
     footer > .wrap {
         margin: 0 auto;
         width: 1020px;
-        height: 495px;
+        height: 494px;
         overflow: hidden;
     }
         h1 {
             font-size: 30px;
             font-weight: 900;
             color: #666d89;
-            margin: 67px 0 33px 40px;
+            margin: 48px 0 20px 40px;
         }
         footer p {
             margin: 0 40px;
@@ -203,23 +194,25 @@ footer {
             line-height: 30px;
             color: #767e9e;
             font-weight: 300;
+            text-align: justify;
         }
         footer .grid {
-            margin: 50px 40px 0;
+            margin: 45px 40px 0;
             display: grid;
             grid-template-columns: 60px 220px 60px 220px 60px 220px;
             grid-template-rows: 90px 90px;
             grid-template-areas: "div div div div div div"
                                  "div div div div div div";
-            row-gap: 40px;
+            row-gap: 34px;
             column-gap: 20px;
         }
             footer .grid div.icon {
-                width: 60px;
-                height: 60px;
+                width: 55px;
+                height: 55px;
                 border-radius: 35px;
                 border: 2px solid #666d89;
                 display: flex;
+                margin: 2px 0 0 1px;
             }
                 footer .grid div.icon div {
                     background-image: url('assets/table-icons-sprite.png');
@@ -269,4 +262,5 @@ footer {
                     line-height: 22px;
                     color: #767e9e;
                     display: block;
+                    text-align: justify;
                 }
