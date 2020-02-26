@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2391cd8b-7674-49e7-9b34-283039d2ccda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/singolo2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singolo2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singolo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +16,37 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="singolo" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xzb6JaTe07twlERIW05uDzOfSe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -51,9 +72,12 @@
       <workItem from="1582135145368" duration="9442000" />
       <workItem from="1582187621877" duration="228000" />
       <workItem from="1582221459957" duration="7082000" />
-      <workItem from="1582263680851" duration="977000" />
-      <workItem from="1582273330797" duration="18000" />
-      <workItem from="1582384136400" duration="1667000" />
+      <workItem from="1582263680851" duration="661000" />
+      <workItem from="1582579792161" duration="117000" />
+      <workItem from="1582617114295" duration="277000" />
+      <workItem from="1582653244531" duration="6090000" />
+      <workItem from="1582705838868" duration="148000" />
+      <workItem from="1582740241542" duration="2345000" />
     </task>
     <servers />
   </component>

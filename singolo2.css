@@ -1,0 +1,236 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul, menu {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* css */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/Lato-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url('assets/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url('assets/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Lato Black'), local('Lato-Black'), url('assets/Lato-Black.ttf') format('truetype');
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Lato', serif;
+    font-weight: 700;
+}
+
+#portfolio {
+    background: #2d303a;
+    width: 100%;
+    border-bottom: 6px solid #323746;
+}
+    #portfolio .wrap {
+        margin: 0 auto;
+        width: 1020px;
+        overflow: hidden;
+    }
+        #portfolio h3 {
+            font-size: 30px;
+            color: #666d89;
+            font-weight: 900;
+            margin: 64px 40px 0;
+        }
+        #portfolio p {
+            display: block;
+            font-size: 18px;
+            color: #767e9e;
+            font-weight: 300;
+            margin: 26px 40px 0;
+        }
+        .portfolio-menu {
+            margin: 17px 40px 0;
+        }
+            .portfolio-menu li {
+                float: left;
+                margin-right: 8px;
+                height: 20px;
+                cursor: pointer;
+                border-radius: 5px;
+                border: 1px solid #666d89;
+                padding: 0 7px;
+            }
+                .portfolio-menu a {
+                    font-size: 12px;
+                    color: #767e9e;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+            .portfolio-menu li.active, .portfolio-menu li:hover {
+                border: 1px solid #c5c5c5;
+            }
+                .portfolio-menu li.active a, .portfolio-menu li:hover a {
+                    color: #dedede;
+                }
+        .portfolio-table {
+            margin: 19px 40px 67px;
+            display: grid;
+            grid-template-columns: 220px;
+            grid-template-rows: 189px;
+            grid-template-areas: "div div div div"
+                                 "div div div div";
+            row-gap: 18px;
+            column-gap: 20px;
+            width: 940px;
+            height: 601px;
+            overflow: hidden;
+        }
+#about {
+    background: #f2f2f2;
+    width: 100%;
+    border-bottom: 6px solid #fff;
+}
+    #about .wrap {
+        margin: 0 auto;
+        width: 1020px;
+        overflow: hidden;
+        padding-bottom: 67px;
+    }
+        #about h3 {
+            font-size: 30px;
+            color: #666d89;
+            font-weight: 900;
+            margin: 62px 40px 0;
+        }
+        #about p {
+            margin: 21px 40px 0;
+            width: 940px;
+            height: 57px;
+            font-size: 18px;
+            line-height: 30px;
+            color: #767e9e;
+            font-weight: 300;
+            text-align: justify;
+        }
+        .about-table {
+            margin: 48px 40px 0;
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 443px;
+            grid-template-areas: "div div div";
+            row-gap: 0;
+            column-gap: 19px;
+        }
+            .about-table div {
+            }
+                .about-table img {
+                    height: ;
+                }
+                .about-table strong {
+                    font-size: 18px;
+                    color: #666d89;
+                    font-weight: 900;
+                    display: block;
+                    margin-top: 13px;
+                }
+                .about-table small {
+                    font-size: 12px;
+                    line-height: 22px;
+                    color: #767e9e;
+                    font-weight: 400;
+                    text-align: justify;
+                    display: block;
+                    margin-top: 11px;
+                }
+.social-menu {
+    margin-top: 21px;
+}
+    .social-menu li {
+        float: left;
+        margin-right: 8px;
+    }
+        .social-menu li a {
+            display: flex;
+            border-radius: 16px;
+            border: 1px solid #666d89;
+            height: 30px;
+            width: 30px;
+        }
+            .social-menu li div {
+                margin: auto;
+                background-image: url('assets/social-sprite.png');
+                background-repeat: no-repeat;
+            }
+            .social-menu li:nth-child(1) div {
+                background-position: 0 0;
+                width: 8px;
+                height: 14px;
+            }
+            .social-menu li:nth-child(2) div {
+                background-position: -9px 0;
+                width: 14px;
+                height: 14px;
+            }
+            .social-menu li:nth-child(3) div {
+                background-position: -24px 0;
+                width: 14px;
+                height: 14px;
+            }
+            .social-menu li:nth-child(4) div {
+                background-position: -39px 0;
+                width: 14px;
+                height: 14px;
+            }
