@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2391cd8b-7674-49e7-9b34-283039d2ccda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/singolo2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singolo2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singolo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,7 @@
       <workItem from="1582653244531" duration="6090000" />
       <workItem from="1582705838868" duration="148000" />
       <workItem from="1582740241542" duration="2345000" />
+      <workItem from="1582743541330" duration="98000" />
     </task>
     <servers />
   </component>

@@ -174,11 +174,8 @@ body {
             row-gap: 0;
             column-gap: 19px;
         }
-            .about-table div {
-            }
-                .about-table img {
-                    height: ;
-                }
+            .about-table div {}
+                .about-table img {}
                 .about-table strong {
                     font-size: 18px;
                     color: #666d89;
